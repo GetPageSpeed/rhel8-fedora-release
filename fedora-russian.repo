@@ -1,0 +1,100 @@
+[fedora-russian-free]
+name=Russian Fedora for Fedora 28 - Free
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/free/fedora/releases/28/Everything/$basearch/os
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=free-fedora-28&arch=$basearch
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-free-fedora
+
+[fedora-russian-free-debuginfo]
+name=Russian Fedora for Fedora 28 - Free - Debug
+baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/free/fedora/releases/28/Everything/$basearch/debug
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-free-fedora
+
+[fedora-russian-free-source]
+name=Russian Fedora for Fedora 28 - Free - Source
+baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/free/fedora/releases/28/Everything/source/SRPMS
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-free-fedora
+
+[fedora-russian-free-updates]
+name=Russian Fedora for Fedora 28 - Free - Updates
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/free/fedora/updates/28/$basearch
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=free-fedora-updates-released-28&arch=$basearch
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-free-fedora
+
+[fedora-russian-free-updates-debuginfo]
+name=Russian Fedora for Fedora 28 - Free - Updates Debug
+baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/free/fedora/updates/28/$basearch/debug
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-free-fedora
+
+[fedora-russian-free-updates-source]
+name=Russian Fedora for Fedora 28 - Free - Updates Source
+baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/free/fedora/updates/28/SRPMS
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-free-fedora
+
+[fedora-russian-nonfree]
+name=Russian Fedora for Fedora 28 - Nonfree
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/nonfree/fedora/releases/28/Everything/$basearch/os
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=nonfree-fedora-28&arch=$basearch
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-nonfree-fedora
+
+[fedora-russian-nonfree-debuginfo]
+name=Russian Fedora for Fedora 28 - Nonfree - Debug
+baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/nonfree/fedora/releases/28/Everything/$basearch/debug
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-nonfree-fedora
+
+[fedora-russian-nonfree-source]
+name=Russian Fedora for Fedora 28 - Nonfree - Source
+baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/nonfree/fedora/releases/28/Everything/source/SRPMS
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-nonfree-fedora
+
+[fedora-russian-nonfree-updates]
+name=Russian Fedora for Fedora 28 - Nonfree - Updates
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/nonfree/fedora/updates/28/$basearch
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=nonfree-fedora-updates-released-28&arch=$basearch
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-nonfree-fedora
+
+[fedora-russian-nonfree-updates-debuginfo]
+name=Russian Fedora for Fedora 28 - Nonfree - Updates Debug
+baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/nonfree/fedora/updates/28/$basearch/debug
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-nonfree-fedora
+
+[fedora-russian-nonfree-updates-source]
+name=Russian Fedora for Fedora 28 - Nonfree - Updates Source
+baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/nonfree/fedora/updates/28/SRPMS
+enabled=0
+priority=100
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-nonfree-fedora
+
