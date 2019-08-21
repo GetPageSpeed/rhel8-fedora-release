@@ -2,7 +2,7 @@
  
 Name:           fedora-release
 Version:        %{rhel}
-Release:        2%{?dist}.gps
+Release:        3%{?dist}.gps
 Summary:        Fedora packages repository configuration for CentOS/RedHat %{version}.
 Group:          System Environment/Base
 License:        BSD
@@ -69,7 +69,7 @@ packages to your RHEL/CentOS 8.
 %{__install} -m 644 -p %{SOURCE38} $RPM_BUILD_ROOT%{_sysconfdir}/pki/rpm-gpg
 %{__install} -m 644 -p %{SOURCE39} $RPM_BUILD_ROOT%{_sysconfdir}/pki/rpm-gpg
 
-%{__install} -Dp -m0644 %{SOURCE100} $RPM_BUILD_ROOT%{_sysconfdir}/profile.d/dnfplus.sh
+%{__install} -Dp -m0755 %{SOURCE100} $RPM_BUILD_ROOT%{_bindir}/dnfplus
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -78,7 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 %config(noreplace) /etc/yum.repos.d/*
 /etc/pki/rpm-gpg/*
-%{_sysconfdir}/profile.d/dnfplus.sh
+%{_bindir}/dnfplus
 
 %changelog
 * Wed Jun 26 2019 Danila Vershinin <info@getpagespeed.com> 8-2
