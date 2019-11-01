@@ -1,8 +1,8 @@
 # Fedora 28 RPM Repository configuration files and GPG key
  
-Name:           fedora-release
+Name:           fed2el-release
 Version:        %{rhel}
-Release:        3%{?dist}.gps
+Release:        1%{?dist}.gps
 Summary:        Fedora packages repository configuration for CentOS/RedHat %{version}.
 Group:          System Environment/Base
 License:        BSD
@@ -34,6 +34,8 @@ Source100:      dnfplus.sh
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
+
+Obsoletes:      fedora-release <= 8
 
 %description
 This package contains Fedora 28 repositories
