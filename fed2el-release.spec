@@ -2,7 +2,7 @@
  
 Name:           fed2el-release
 Version:        %{rhel}
-Release:        1%{?dist}.gps
+Release:        2%{?dist}.gps
 Summary:        Fedora packages repository configuration for CentOS/RedHat %{version}.
 Group:          System Environment/Base
 License:        BSD

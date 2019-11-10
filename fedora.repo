@@ -53,6 +53,7 @@ gpgcheck=1
 metadata_expire=6h
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-28-$basearch
 skip_if_unavailable=False
+exclude=kernel kernel-*
 
 [fedora-updates-debuginfo]
 name=Fedora 28 - $basearch - Updates - Debug
